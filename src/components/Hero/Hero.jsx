@@ -7,7 +7,7 @@ export const Hero = () => {
             <div className="info">
                 <span className="hey">HEY THERE!</span>
                 <h1 style={{ fontSize: "3rem" }}>I'm <span className="myname">Kunal</span></h1>
-                <h2 className="sec-text"> A FullStack Engineer<br />
+                <h2 className="sec-text"> A FullStack Engineer.<br />
                     Love to work on the Frontend.</h2>
                 <button className="btn">Let's Connect</button>
             </div>

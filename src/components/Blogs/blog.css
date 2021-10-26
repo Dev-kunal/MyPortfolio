@@ -1,0 +1,32 @@
+.blogs {
+  margin-top: 4rem;
+}
+
+.blog {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  min-height: 18rem;
+  max-height: 18rem;
+}
+.reads {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.2rem;
+}
+.blog-img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 100%;
+  min-height: 9rem;
+  max-height: 9rem;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .projects-container {
+    flex-direction: column;
+    padding: 0rem 2rem;
+  }
+}

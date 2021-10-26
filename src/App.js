@@ -1,5 +1,9 @@
+import { About } from "./components/About/About";
+import { Blogs } from "./components/Blogs/Blogs";
+import { Footer } from "./components/Footer/Footer";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Projects } from "./components/Projects/Projects";
 
 
 function App() {
@@ -8,6 +12,10 @@ function App() {
       <Navbar />
       <main className="main">
         <Hero />
+        <About />
+        <Projects />
+        <Blogs />
+        <Footer />
       </main>
     </>
   );
