@@ -16,7 +16,7 @@
   border-radius: 1rem;
   min-width: 32%;
   min-height: 16.5rem;
-  /* max-height: 16.5rem; */
+  margin: 1rem auto;
 }
 
 .card-img {

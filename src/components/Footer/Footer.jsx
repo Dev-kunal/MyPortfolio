@@ -2,7 +2,7 @@ import './footer.css';
 
 export const Footer = () => {
     return (
-        <footer id="contact" className='footer'>
+        <footer id="connect" className='footer'>
             <div className='faint-heading center'>&lt; Connect /&gt;</div>
             <div className='social-links'>
                 <a
