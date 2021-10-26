@@ -15,6 +15,7 @@
   background-color: var(--bgSecondary);
   border-radius: 1rem;
   min-width: 32%;
+  max-width: 32%;
   min-height: 16.5rem;
   margin: 1rem auto;
 }
@@ -66,8 +67,17 @@
   color: var(--textSecondary);
   font-size: 0.8rem;
 }
-
 .card-btn:hover {
   background-color: var(--primaryEmerald);
   color: var(--bgPrimary);
+}
+
+@media screen and (max-width: 767px) {
+  .project-card {
+    min-width: 70vw;
+    max-width: 70vw;
+  }
+  .card-img {
+    object-fit: cover;
+  }
 }
