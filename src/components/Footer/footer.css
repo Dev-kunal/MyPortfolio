@@ -11,7 +11,11 @@
   margin: 2rem auto;
 }
 .social {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
   text-decoration: none;
   color: inherit;
   margin: 0 0.2rem;

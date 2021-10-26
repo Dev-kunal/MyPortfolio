@@ -12,7 +12,6 @@
 .reads {
   display: flex;
   align-items: center;
-  gap: 0.3rem;
   margin-top: 0.2rem;
 }
 .blog-img {
@@ -22,6 +21,9 @@
   min-height: 9rem;
   max-height: 9rem;
   object-fit: cover;
+}
+.blogs-clock {
+  margin-right: 0.3rem;
 }
 
 @media screen and (max-width: 767px) {

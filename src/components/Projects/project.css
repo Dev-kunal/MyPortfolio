@@ -33,16 +33,23 @@
   margin-top: 0.5rem;
   justify-content: start;
 }
-.btn-svg {
-  width: 1.2rem;
-  height: 1.2rem;
-}
 .card-btn {
-  padding: 0.4rem;
+  padding: 0.3rem;
   border: none;
   color: inherit;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
   background-color: var(--bgTernary);
   margin: 0 0.3rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-svg {
+  width: 2rem;
+  height: 2rem;
 }
 .card-info {
   padding: 1rem;
@@ -59,12 +66,7 @@
   color: var(--textSecondary);
   font-size: 0.8rem;
 }
-.circle {
-  width: 1.3rem;
-  height: 1.3rem;
-  border-radius: 50%;
-  text-align: center;
-}
+
 .card-btn:hover {
   background-color: var(--primaryEmerald);
   color: var(--bgPrimary);
