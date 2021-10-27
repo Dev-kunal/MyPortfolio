@@ -1,11 +1,10 @@
 .projects {
   margin-top: 2rem;
 }
-
 .projects-container {
   margin-top: 3rem;
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -14,10 +13,10 @@
   flex-direction: column;
   background-color: var(--bgSecondary);
   border-radius: 1rem;
-  min-width: 32%;
-  max-width: 32%;
+  min-width: 30%;
+  max-width: 30%;
   min-height: 16.5rem;
-  margin: 1rem auto;
+  margin: 1rem 0.5rem;
 }
 
 .card-img {

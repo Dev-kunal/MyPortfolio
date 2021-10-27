@@ -22,6 +22,22 @@ export const projectsData = [
         info: "A Tech Video Library app",
         github: "https://github.com/Dev-kunal/VideoLibrary-TechTube",
         live: "https://tech-tube.netlify.app/"
+    },
+    {
+        id: 4,
+        name: "Quizzy",
+        imgUrl: "https://ik.imagekit.io/abcdefg/ProjectImages/quizzy_3g0dS4XCjn.jpeg?updatedAt=1635331501993",
+        info: "A Quiz app build using Typescript",
+        github: "https://github.com/Dev-kunal/Quiz-App",
+        live: "https://zen-quizzy.netlify.app/"
+    },
+    {
+        id: 5,
+        name: "Zen-ui",
+        imgUrl: "https://ik.imagekit.io/abcdefg/ProjectImages/buttons_tMoWax86s.jpeg?updatedAt=1635331715969",
+        info: "A CSS Component Library",
+        github: "https://github.com/Dev-kunal/Components-Library-ZenUi",
+        live: "https://zenui.netlify.app/"
     }
 ]
 

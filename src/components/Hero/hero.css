@@ -42,6 +42,9 @@
 .sec-text {
   color: var(--textSecondary);
 }
+.connect-btn {
+  display: block;
+}
 .btn {
   display: inline-block;
   margin-top: 1rem;
