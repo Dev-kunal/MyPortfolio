@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
 .hero {
   padding-top: 2rem;
   display: flex;
@@ -9,7 +9,7 @@
 }
 .myname {
   background-color: var(--primaryPurple);
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
   padding: 0 0.7rem;
   background: -webkit-linear-gradient(
     var(--primaryEmerald),
@@ -23,6 +23,7 @@
   line-height: 1.2;
   position: relative;
   animation: slide-in-left 2s both;
+  letter-spacing: 0.2rem;
 }
 .hey {
   text-transform: capitalize;

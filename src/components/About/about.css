@@ -15,7 +15,7 @@
   padding-top: 5rem;
   font-weight: 100;
   line-height: 1.5;
-  max-width: 22rem;
+  max-width: 24rem;
 }
 .faint-heading {
   font-size: 4rem;
@@ -32,6 +32,7 @@
   }
   .about-info {
     padding-top: 1rem;
+    max-width: 22rem;
   }
   .faint-heading {
     font-size: 3rem;
