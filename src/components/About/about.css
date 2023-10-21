@@ -7,7 +7,10 @@
   flex-direction: row;
 }
 .about-img {
+  margin-top: 4rem;
   max-width: 25rem;
+  max-height: 21rem;
+  border-radius: 50%;
 }
 .about-info {
   padding-left: 2rem;

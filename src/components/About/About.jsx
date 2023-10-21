@@ -25,7 +25,7 @@ export const About = () => {
             className="about-img"
             width="100%"
             height="auto"
-            src="Images/workingCharacter.png"
+            src="Images/myimage2.jpeg"
             alt="hero"
           />
         </div>

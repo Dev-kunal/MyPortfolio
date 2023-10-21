@@ -72,3 +72,45 @@ export const blogsData = [
     url: "https://kunal-tijare.hashnode.dev/hoisting-in-javascript-in-the-easiest-way",
   },
 ];
+
+export const skillsData = [
+  {
+    label: "ReactJs",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/reactjs.svg",
+  },
+  {
+    label: "NodeJs",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/nodejs.svg",
+  },
+  {
+    label: "Express",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/express.svg",
+  },
+
+  {
+    label: "MongoDb",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/mongodb.svg",
+  },
+
+  {
+    label: "Javsscript",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/javascript.svg",
+  },
+  {
+    label: "HTML",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/html.svg",
+  },
+
+  {
+    label: "CSS",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/css.svg",
+  },
+  {
+    label: "TailwindCSS",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/tailwindcss.svg",
+  },
+  {
+    label: "Bootstrap",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/bootstrap.svg",
+  },
+];
