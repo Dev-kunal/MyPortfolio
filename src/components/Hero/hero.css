@@ -44,7 +44,7 @@
   color: var(--textSecondary);
 }
 .connect-btn {
-  display: block;
+  display: inline-block;
 }
 .btn {
   display: inline-block;

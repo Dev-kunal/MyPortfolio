@@ -1,4 +1,5 @@
 import "./about.css";
+import "../Hero/hero.css";
 
 export const About = () => {
   return (
@@ -6,7 +7,7 @@ export const About = () => {
       <div className="faint-heading">&lt; About /&gt;</div>
       <div className="about">
         <div className="about-info">
-          <p style={{ padding: "0.5rem" }}>
+          <p>
             Hello! I'm <span className="hey">Kunal Tijare</span>
             <br />
             A JavaScript Developer with an eye for UI-UX, I’ve experience in
@@ -19,7 +20,14 @@ export const About = () => {
             for road trips in monsoon. I also enjoy some lazy 🥱 weekends
             streaming movies and shows.
           </p>
+          <a
+            className="connect-btn"
+            href="https://drive.google.com/file/d/1E9fSrBt602QqDL5ltHT6aylovS8vdrge/view?usp=sharing"
+          >
+            <button className="btn">Download CV</button>
+          </a>
         </div>
+
         <div className="hero-img-container">
           <img
             className="about-img"
