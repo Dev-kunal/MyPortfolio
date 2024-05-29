@@ -26,7 +26,7 @@ export const Footer = () => {
           className="social"
           rel="noreferrer"
           target="_blank"
-          href="https://www.linkedin.com/in/kunal-tijare-aaab76179"
+          href="https://www.linkedin.com/in/kunal-tijare"
         >
           <i className="fab fa-linkedin"></i>
         </a>
