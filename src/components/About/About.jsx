@@ -24,7 +24,7 @@ export const About = () => {
             className="connect-btn"
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1E9fSrBt602QqDL5ltHT6aylovS8vdrge/view?usp=sharing"
+            href="https://drive.google.com/file/d/1-oN6Mk9r3dhA_Btnvt9gTTtHmPdsCMa9/view?usp=sharing"
           >
             <button className="btn">Download CV</button>
           </a>
