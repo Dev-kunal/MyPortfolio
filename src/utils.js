@@ -79,6 +79,14 @@ export const skillsData = [
     icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/reactjs.svg",
   },
   {
+    label: "NextJs",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/nextjs.svg",
+  },
+  {
+    label: "GraphQl",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/graphql.svg",
+  },
+  {
     label: "NodeJs",
     icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/nodejs.svg",
   },
