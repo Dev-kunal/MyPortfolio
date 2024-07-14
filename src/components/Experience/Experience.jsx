@@ -8,7 +8,7 @@ export default function Experience(props) {
       <div className="experience-container">
         <div className="exp-term">
           <div className="org-logo">
-            <a href="https://source.one/" target="_blank">
+            <a href="https://source.one/" target="_blank" rel="noreferrer">
               <img
                 className="org-img"
                 src="https://framerusercontent.com/images/lY1aRk2YjHnVuxtKqVZ26tgTzeQ.png"
