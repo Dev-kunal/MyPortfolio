@@ -14,20 +14,22 @@ export const About = () => {
             building end-to-end web-apps across MERN stack.I Love building
             things on web.
             <br />
-            Currently working as a full stack developer at Source.One <br />
+            Worked as a full stack developer at Source.One <br />
             <br /> When I'm not immersed in the digital world, you'll find me
             exploring the great outdoors. Hiking, trekking ⛰️ & especially going
             for road trips in monsoon. I also enjoy some lazy 🥱 weekends
             streaming movies and shows.
           </p>
-          <a
-            className="connect-btn"
-            target="_blank"
-            rel="noreferrer"
-            href="https://drive.google.com/file/d/1-oN6Mk9r3dhA_Btnvt9gTTtHmPdsCMa9/view?usp=sharing"
-          >
-            <button className="btn">Download CV</button>
-          </a>
+          <div style={{ position: "relative" }}>
+            <a
+              className="connect-btn"
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1LXNsyJdOpd4XJzZtRrUPfV_fp08nP3Oa/view?usp=sharing"
+            >
+              <button className="btn">Download CV</button>
+            </a>
+          </div>
         </div>
 
         <div className="hero-img-container">

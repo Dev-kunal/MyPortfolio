@@ -13,6 +13,7 @@ export const Hero = () => {
           A FullStack Javascript Engineer.
           <br />
           Love to work on the Frontend.
+          <br />
         </h2>
         <a className="connect-btn" href="#connect">
           <button className="btn">Let's Connect</button>

@@ -1,0 +1,61 @@
+.experience {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.experience-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+}
+.exp-term {
+  padding: 1rem;
+}
+
+.org-name {
+  color: var(--textSecondary);
+}
+
+.org-logo {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.org-img {
+  width: 10rem;
+  height: 2rem;
+  object-position: center;
+  object-fit: contain;
+  image-rendering: auto;
+}
+
+.exp-details {
+  padding-left: 2rem;
+  font-weight: 100;
+  line-height: 1.5;
+  color: var(--textSecondary);
+}
+
+.badge-container {
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  text-align: center;
+  padding: 0.2rem 0.5rem;
+  vertical-align: baseline;
+  font-size: 0.8rem;
+  margin: auto 0.4em;
+  border-radius: 0.75rem;
+  color: white;
+  border: 1px solid white;
+}
+
+.badge:hover {
+  border: 1px solid var(--primaryEmerald);
+}

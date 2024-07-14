@@ -1,12 +1,12 @@
 export const projectsData = [
   {
-    id: 1,
-    name: "Social Monks",
+    id: 5,
+    name: "Zen-ui",
     imgUrl:
-      "https://ik.imagekit.io/abcdefg/ProjectImages/socialmonks_5pJgIVgXBGCw.jpeg?updatedAt=1635149694175",
-    info: "A Social Media app for minimialist's",
-    github: "https://github.com/Dev-kunal/Social-Monks",
-    live: "https://social-monks.netlify.app",
+      "https://ik.imagekit.io/abcdefg/ProjectImages/buttons_tMoWax86s.jpeg?updatedAt=1635331715969",
+    info: "A CSS Component Library",
+    github: "https://github.com/Dev-kunal/Components-Library-ZenUi",
+    live: "https://zenui.netlify.app/",
   },
   {
     id: 2,
@@ -18,15 +18,6 @@ export const projectsData = [
     live: "https://zen-tech-store.netlify.app",
   },
   {
-    id: 3,
-    name: "TechTube",
-    imgUrl:
-      "https://ik.imagekit.io/abcdefg/ProjectImages/techtube_KYGzhy_IXsP.jpeg?updatedAt=1635148381939",
-    info: "A Tech Video Library app",
-    github: "https://github.com/Dev-kunal/VideoLibrary-TechTube",
-    live: "https://tech-tube.netlify.app/",
-  },
-  {
     id: 4,
     name: "Quizzy",
     imgUrl:
@@ -36,13 +27,22 @@ export const projectsData = [
     live: "https://zen-quizzy.netlify.app/",
   },
   {
-    id: 5,
-    name: "Zen-ui",
+    id: 3,
+    name: "TechTube",
     imgUrl:
-      "https://ik.imagekit.io/abcdefg/ProjectImages/buttons_tMoWax86s.jpeg?updatedAt=1635331715969",
-    info: "A CSS Component Library",
-    github: "https://github.com/Dev-kunal/Components-Library-ZenUi",
-    live: "https://zenui.netlify.app/",
+      "https://ik.imagekit.io/abcdefg/ProjectImages/techtube_KYGzhy_IXsP.jpeg?updatedAt=1635148381939",
+    info: "A Tech Video Library app",
+    github: "https://github.com/Dev-kunal/VideoLibrary-TechTube",
+    live: "https://tech-tube.netlify.app/",
+  },
+  {
+    id: 1,
+    name: "Social Monks",
+    imgUrl:
+      "https://ik.imagekit.io/abcdefg/ProjectImages/socialmonks_5pJgIVgXBGCw.jpeg?updatedAt=1635149694175",
+    info: "A Social Media app for minimialist's",
+    github: "https://github.com/Dev-kunal/Social-Monks",
+    live: "https://social-monks.netlify.app",
   },
 ];
 
@@ -98,6 +98,11 @@ export const skillsData = [
   {
     label: "MongoDb",
     icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/mongodb.svg",
+  },
+
+  {
+    label: "PostgreSQL",
+    icon: "https://d26c7l40gvbbg2.cloudfront.net/tool_icons/postgresql.svg",
   },
 
   {

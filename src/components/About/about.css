@@ -20,6 +20,7 @@
   line-height: 1.5;
   max-width: 24rem;
 }
+
 .faint-heading {
   font-size: 4rem;
   color: var(--borderColor);
