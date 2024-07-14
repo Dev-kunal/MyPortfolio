@@ -18,10 +18,15 @@
   color: var(--textSecondary);
 }
 
+.org-name:hover {
+  color: white;
+}
+
 .org-logo {
   display: flex;
   gap: 1rem;
   margin-bottom: 1.5rem;
+  align-items: center;
 }
 
 .org-img {

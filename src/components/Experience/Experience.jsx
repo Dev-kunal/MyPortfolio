@@ -15,7 +15,7 @@ export default function Experience(props) {
                 alt=""
               />
             </a>
-            <h2 className="org-name">(Dec-2021 - Jan 2024)</h2>
+            <h2 className="org-name"> SDE-1 (Dec-2021 - Jan 2024)</h2>
           </div>
           <div className="exp-details">
             <ul>
