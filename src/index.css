@@ -1,12 +1,19 @@
 :root {
-  --primaryRed: #ec0d13;
-  --primaryEmerald: #34d399;
-  --primaryPurple: #a668f2;
-  --borderColor: #374151;
-  --bgPrimary: #0b111c;
-  --bgSecondary: #0e1522;
-  --bgTernary: #141d2e;
-  --textSecondary: #b8bdc5;
+  /* Monochrome palette for newspaper look */
+  --paper: #ffffff;
+  --ink: #111111;
+  --inkMuted: #555555;
+  --line: #e6e6e6;
+
+  /* Keep existing variable names used across files but map to mono palette */
+  --primaryRed: #111111;
+  --primaryEmerald: #111111;
+  --primaryPurple: #111111;
+  --borderColor: var(--line);
+  --bgPrimary: var(--paper);
+  --bgSecondary: #fafafa;
+  --bgTernary: #f5f5f5;
+  --textSecondary: var(--inkMuted);
 }
 
 html {
@@ -21,13 +28,43 @@ html {
 body {
   margin: 0;
   background-color: var(--bgPrimary);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  color: white;
+  color: var(--ink);
+  /* Switch body to Instrument Sans to mirror reference site */
+  font-family: "Instrument Sans", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.003em;
 }
 
 .main {
   /* padding: 0 2rem; */
-  max-width: 50rem;
+  max-width: 48rem;
   margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Serif, bold, tight headings reminiscent of print */
+h1, h2, h3, .faint-heading, .nav-brand-heading {
+  /* Headings slightly heavier but still sans, like the reference */
+  font-family: "Instrument Sans", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+/* Body copy tone */
+p, li {
+  color: var(--inkMuted);
+  font-size: 1rem;
+}
+
+/* Section headings */
+.faint-heading {
+  margin-bottom: 1.2rem;
+}
+
+/* Subtle horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid var(--line);
 }

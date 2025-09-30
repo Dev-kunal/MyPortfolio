@@ -11,35 +11,24 @@ export const About = () => {
             Hello! I'm <span className="hey">Kunal Tijare</span>
             <br />
             A JavaScript Developer with an eye for UI-UX, I’ve experience in
-            building end-to-end web-apps across MERN stack.I Love building
-            things on web.
+            building end-to-end web-apps across MERN stack.
             <br />
-            Worked as a full stack developer at Source.One <br />
+            currently working as an SDE at at Swiggy <br />
             <br /> When I'm not immersed in the digital world, you'll find me
             exploring the great outdoors. Hiking, trekking ⛰️ & especially going
-            for road trips in monsoon. I also enjoy some lazy 🥱 weekends
+            for road trips in monsoon. I also enjoy some lazy weekends
             streaming movies and shows.
           </p>
-          <div style={{ position: "relative" }}>
-            <a
-              className="connect-btn"
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/file/d/1LXNsyJdOpd4XJzZtRrUPfV_fp08nP3Oa/view?usp=sharing"
-            >
-              <button className="btn">Download CV</button>
-            </a>
-          </div>
         </div>
 
         <div className="hero-img-container">
-          <img
+          {/* <img
             className="about-img"
             width="100%"
             height="auto"
             src="Images/myimage2.jpeg"
             alt="hero"
-          />
+          /> */}
         </div>
       </div>
     </div>

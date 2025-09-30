@@ -7,14 +7,6 @@ export const Footer = () => {
       <div className="social-links">
         <a
           className="social"
-          href="https://api.whatsapp.com/send/?phone=917722009756"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i class="fa-brands fa-whatsapp"></i>
-        </a>
-        <a
-          className="social"
           rel="noreferrer"
           target="_blank"
           href="mailto: kunaltijare77@gmail.com"

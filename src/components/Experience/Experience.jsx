@@ -15,7 +15,7 @@ export default function Experience(props) {
                 alt=""
               />
             </a>
-            <h2 className="org-name"> SDE-1 (Dec-2021 - Jan 2024)</h2>
+            <h2 className="title"> SDE-1 (Dec-2021 - Jan 2024)</h2>
           </div>
           <div className="exp-details">
             <ul>
@@ -37,12 +37,13 @@ export default function Experience(props) {
             </ul>
           </div>
         </div>
+        
 
-        <div className="badge-container">
+        {/* <div className="badge-container">
           <span className="badge">
             Open to Opportunities - Looking for my next Adventure/Experience.
           </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

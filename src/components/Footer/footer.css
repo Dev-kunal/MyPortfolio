@@ -22,8 +22,9 @@
   padding: 0.6rem;
   border-radius: 50%;
   background-color: var(--bgTernary);
+  border: 1px solid var(--borderColor);
 }
 .social:hover {
-  background-color: var(--primaryEmerald);
+  background-color: var(--ink);
   color: var(--bgPrimary);
 }
