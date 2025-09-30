@@ -1,4 +1,3 @@
-import { Blog } from "./Blog";
 import "./blog.css"
 import { blogsData } from "../../utils";
 
