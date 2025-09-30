@@ -35,6 +35,24 @@
   align-items: center;
   margin-top: 1.5rem;
 }
+
+/* Hero social link buttons - hover background like footer, but transparent by default */
+.profile .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+.profile .social:hover {
+  background-color: var(--ink);
+  color: var(--bgPrimary);
+}
 .divider {
   border-bottom: 1px solid var(--borderColor);
   width: 100%;
