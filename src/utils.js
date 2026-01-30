@@ -1,5 +1,14 @@
 export const projectsData = [
   {
+    id: 7,
+    name: "Giftseeker",
+    imgUrl:
+      "https://ik.imagekit.io/abcdefg/ProjectImages/Screenshot%202024-08-07%20at%201.58.02%E2%80%AFPM_HBwlwXoQK.png?updatedAt=1723019294674",
+    info: "An app to find best gifts for every occasion",
+    github: "https://github.com/Dev-kunal/gifty",
+    live: "https://www.giftseeker.in/",
+  },
+  {
     id: 6,
     name: "Game of Life",
     imgUrl:
